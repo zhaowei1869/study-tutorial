@@ -239,11 +239,8 @@ git status
 > 要养成上班先git pull，下班git push的习惯，才能保证在最终git push的时候本地commit历史和远程commit历史是一致的
 
 
+参考链接：https://www.jianshu.com/p/5f4169e50835
 
-作者：七一欧
-链接：https://www.jianshu.com/p/5f4169e50835
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ------
 
@@ -339,7 +336,7 @@ git push gitee master
     └─────────────┘
 ```
 
-[使用Gitee - 廖雪峰的官方网站 (liaoxuefeng.com)](https://www.liaoxuefeng.com/wiki/896043488029600/1163625339727712)
+参考(https://www.liaoxuefeng.com/wiki/896043488029600/1163625339727712)
 
 
 
@@ -376,6 +373,11 @@ true
 设置core.autocrlf属性为false，去除警告：
 
 git config --global core.autocrlf false
-------------------------------------------------
-版权声明：本文为CSDN博主「星归」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/linzeliang1222/article/details/108571209
+
+## 实操
+
+![image-20230807164823982](https://cdn.jsdelivr.net/gh/zhaowei1869/learning_pictures/code/explain/image-20230807164823982.png)
+
+## 参考：
+
+https://blog.csdn.net/linzeliang1222/article/details/108571209
