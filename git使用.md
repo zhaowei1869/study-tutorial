@@ -37,17 +37,11 @@ git commit -m "add distributed"
 1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
+<img src="https://cdn.jsdelivr.net/gh/zhaowei1869/learning_pictures/code/explain/image-20230808144001654.png" alt="image-20230808144001654" style="zoom:50%;" />
 
+<img src="https://cdn.jsdelivr.net/gh/zhaowei1869/learning_pictures/code/explain/image-20230808144038387.png" alt="image-20230808144038387" style="zoom:50%;" />
 
-
-
-<img src="E:\软件文档消息记录\typora图片储存位置\image-20230805134518646.png" alt="image-20230805134518646" style="zoom:50%;" />
-
-<img src="E:\软件文档消息记录\typora图片储存位置\image-20230805134558873.png" alt="image-20230805134558873" style="zoom:50%;" />
-
-<img src="E:\软件文档消息记录\typora图片储存位置\image-20230805134636779.png" alt="image-20230805134636779" style="zoom: 33%;" />
-
-<img src="E:\软件文档消息记录\typora图片储存位置\image-20230805135814652.png" alt="image-20230805135814652" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/gh/zhaowei1869/learning_pictures/code/explain/image-20230808144057631.png" alt="image-20230808144057631" style="zoom:50%;" />
 
 
 
@@ -55,7 +49,11 @@ git commit -m "add distributed"
 
 
 
-<img src="E:\软件文档消息记录\typora图片储存位置\image-20230805151535724.png" alt="image-20230805151535724" style="zoom:33%;" />
+<img src="https://cdn.jsdelivr.net/gh/zhaowei1869/learning_pictures/code/explain/image-20230808144134799.png" alt="image-20230808144134799" style="zoom:67%;" />
+
+
+
+
 
 IDEA中集成Git
 
@@ -77,7 +75,7 @@ Git 的工作就是创建和保存你项目的快照及与之后的快照进行�
 
 Git 常用的是以下 6 个命令：**git clone**、**git push**、**git add** 、**git commit**、**git checkout**、**git pull**，后面我们会详细介绍。
 
-![img](E:\软件文档消息记录\typora图片储存位置\git-command.jpg)
+<img src="https://cdn.jsdelivr.net/gh/zhaowei1869/learning_pictures/code/explain/image-20230808144642398.png" alt="image-20230808144642398" style="zoom:67%;" />
 
 **说明：**
 
