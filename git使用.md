@@ -194,9 +194,12 @@ git remote add origin 你的远程库地址
 
 ```undefined
 git pull --rebase origin master
+<<<<<<< HEAD
 
 git pull = git fetch + git merge
 git pull --rebase = git fetch + git rebase
+=======
+>>>>>>> 879c6db48220e6e336d211d9a1f7cdb7d64c3d41
 ```
 
 
@@ -242,8 +245,16 @@ git status
 > 要养成上班先git pull，下班git push的习惯，才能保证在最终git push的时候本地commit历史和远程commit历史是一致的
 
 
+<<<<<<< HEAD
 参考链接：https://www.jianshu.com/p/5f4169e50835
 
+=======
+
+作者：七一欧
+链接：https://www.jianshu.com/p/5f4169e50835
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+>>>>>>> 879c6db48220e6e336d211d9a1f7cdb7d64c3d41
 
 ------
 
@@ -339,7 +350,11 @@ git push gitee master
     └─────────────┘
 ```
 
+<<<<<<< HEAD
 参考(https://www.liaoxuefeng.com/wiki/896043488029600/1163625339727712)
+=======
+[使用Gitee - 廖雪峰的官方网站 (liaoxuefeng.com)](https://www.liaoxuefeng.com/wiki/896043488029600/1163625339727712)
+>>>>>>> 879c6db48220e6e336d211d9a1f7cdb7d64c3d41
 
 
 
@@ -376,6 +391,7 @@ true
 设置core.autocrlf属性为false，去除警告：
 
 git config --global core.autocrlf false
+<<<<<<< HEAD
 
 ## 实操
 
@@ -384,3 +400,8 @@ git config --global core.autocrlf false
 ## 参考：
 
 https://blog.csdn.net/linzeliang1222/article/details/108571209
+=======
+------------------------------------------------
+版权声明：本文为CSDN博主「星归」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/linzeliang1222/article/details/108571209
+>>>>>>> 879c6db48220e6e336d211d9a1f7cdb7d64c3d41
