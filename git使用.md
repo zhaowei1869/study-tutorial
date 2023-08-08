@@ -194,6 +194,9 @@ git remote add origin 你的远程库地址
 
 ```undefined
 git pull --rebase origin master
+
+git pull = git fetch + git merge
+git pull --rebase = git fetch + git rebase
 ```
 
 
