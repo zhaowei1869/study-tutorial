@@ -1,6 +1,6 @@
 # git push
 git status
-git add . -A
+git add .
 git commit -m "update"
 git remote -v
 git push gitee master

@@ -358,6 +358,57 @@ git push gitee master
 
 
 
+## Git LFS 上传大文件
+
+#### 开始
+
+1. 下载并安装 Git 命令行扩展。下载并安装后，通过运行以下命令为您的用户帐户设置 Git LFS：
+
+   ```
+   git lfs install
+   ```
+
+   每个用户帐户只需运行一次。
+
+2. 在要使用 Git LFS 的每个 Git 存储库中，选择您希望 Git LFS 管理的文件类型（或直接编辑 .gitattributes）。您可以随时配置其他文件扩展名。
+
+   ```
+   git lfs track "*.psd"
+   ```
+
+   现在确保跟踪 .gitattributes：
+
+   ```
+   git add .gitattributes
+   ```
+
+   请注意，定义 Git LFS 应跟踪的文件类型本身不会将任何预先存在的文件转换为 Git LFS，例如其他分支上的文件或您之前的提交历史记录中的文件。为此，请使用 [git lfs migrate（1）](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-migrate.adoc?utm_source=gitlfs_site&utm_medium=doc_man_migrate_link&utm_campaign=gitlfs) 命令， 它有一系列旨在适应各种潜在用例的选项。
+
+3. 没有第三步。只需像往常一样提交并推送到 GitHub;例如，如果您当前的分支名为：`main`
+
+   ```
+   git add file.psd
+   git commit -m "Add design file"
+   git push origin main
+   ```
+
+## 完整流程
+
+```
+$ git init
+$ git remote add github git@github.com:zhaowei1869/Legal-examination-materials.git
+$ git lfs install  # 首次
+$ git lfs track "*.pdf"  # 首次
+$ git add .gitattributes  # 首次
+$ git add .
+$ git commit -m "add李佳行政法讲义"
+# $ git pull --rebase github master  # 首次
+$ git push github master
+
+```
+
+
+
 ## git add .，git add -A，git add -u，git add * 的区别与联系
 
 这几个命令在不同版本的 Git 中稍有差异。
